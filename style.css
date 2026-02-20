@@ -1,0 +1,18 @@
+/* Manibha Sharma – Portfolio
+   Minimal overrides; main styling via Tailwind in index.html */
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Optional: ensure external links open in new tab styling is consistent */
+a[target="_blank"]:not(.no-icon)::after {
+  content: "";
+  /* Screen readers: link opens in new tab is communicated by target="_blank" */
+}
